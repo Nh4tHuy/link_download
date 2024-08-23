@@ -1,0 +1,37 @@
+/* ================================================================================================
+Website: https://www.theme.id.vn
+Admin: Ng P Nhat Huy
+Data: Tổng hợp Link Download Source Code
+================================================================================================ */
+function checkCode() {
+      var codeInput = document.getElementById("codeInput").value;
+
+      if (codeInput === "01") {
+        document.getElementById("result").innerHTML = "Shop Clone V6";
+        document.getElementById("molink").href = "https://www.theme.id.vn/p/download.html";
+        document.getElementById("molink").style.display = "inline";
+      } else if (codeInput === "02") {
+        document.getElementById("result").innerHTML = "xxxxx";
+        document.getElementById("molink").href = "https://www.theme.id.vn/p/download.html";
+        document.getElementById("molink").style.display = "inline";
+      } else if (codeInput === "03") {
+        document.getElementById("result").innerHTML = "xxxxx";
+        document.getElementById("molink").href = "https://www.theme.id.vn/p/download.html";
+        document.getElementById("molink").style.display = "inline";
+        } else if (codeInput === "03") {
+        document.getElementById("result").innerHTML = "xxxxx";
+        document.getElementById("molink").href = "https://www.theme.id.vn/p/download.html";
+        document.getElementById("molink").style.display = "inline";
+      } else if (codeInput === "03") {
+        document.getElementById("result").innerHTML = "xxxxx";
+        document.getElementById("molink").href = "https://www.theme.id.vn/p/download.html";
+        document.getElementById("molink").style.display = "inline";
+        } else if (codeInput === "03") {
+        document.getElementById("result").innerHTML = "xxxxx";
+        document.getElementById("molink").href = "https://www.theme.id.vn/p/download.html";
+        document.getElementById("molink").style.display = "inline";
+      } else {
+        document.getElementById("result").innerHTML = '<span class="error">ID Code không đúng! Vui lòng thử lại.</span>';
+        document.getElementById("molink").style.display = "none";
+      }
+    }
